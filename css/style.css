@@ -1,0 +1,325 @@
+* {
+margin: 0;
+padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+@media only screen and (max-width: 767px){
+  background-image: url('../img/mujik.jpg');
+}
+@font-face {
+font-family: 'fonte049e093163fcd86da465c35a92b13f0';
+    src:    url('https://nomail.com.ua/files/eot/e049e093163fcd86da465c35a92b13f0.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/e049e093163fcd86da465c35a92b13f0.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/e049e093163fcd86da465c35a92b13f0.woff2') format('woff2');
+}
+@font-face { font-family: 'HouschkaRounded-Bold';  src: local('HouschkaRounded-Bold'), url('https://nomail.com.ua/files/woff/e049e093163fcd86da465c35a92b13f0.woff') format('woff'); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 300 100% 'Oswald', Oswald, Arial;
+}
+ul li {
+  display: inline;
+  font-family: 'Oswald';
+  text-align: center;
+}
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color:#4B4B4B;
+}
+.two:hover ~ hr {
+  margin-left: 25%;
+}
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background:#4B4B4B;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.logo img{
+  width: 14%;
+  height: 98px;
+  position: fixed;
+  margin-top: -31px;
+}
+.remont {
+  text-align: center;
+  color:#4B4B4B;
+  position: absolute; 
+  top: 157px;
+  left: 208px;
+  font-family: 'HouschkaRounded-Bold';
+  background: #4B4B4B; /* Цвет фона */
+  background-size: 500px 100px;
+  width: 470px;
+  height: 50px;
+  color: #fff; /* Цвет текста */
+  border-radius: 30px; /* Уголки */
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.border {
+  background: #4B4B4B;
+  background-size: 500px 100px;
+  width: 476px;
+  height: 148px;
+  color: #fff;
+  border-radius: 30px;
+  background-position: right bottom;
+  position: absolute;
+  margin-top: 238px;
+  margin-left: 204px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+  padding: 10px;
+}
+.block2{
+  width: 100%;
+  height: 324px;
+  background-color: #222222;
+  position: static;
+  display: block;  
+}
+.block2 p {
+  color: white;
+}
+html, body {
+  height: 100%;
+}
+body {
+  color: #4f4f5a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+#slider-wrap { 
+  max-width:650px;
+  margin: 100px auto;
+}
+#slider {
+  position:relative;
+  height: 200px;
+  overflow: hidden;
+  border:#fafafa solid 10px;
+}
+.slide {
+  width:100%;
+  height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+.Radio-But {
+  margin-top:10px;
+  text-align:center;
+}
+.Radio-But .ctrl-select {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("radioBg.png") center bottom no-repeat;
+  margin: 2px;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+.Radio-But .ctrl-select:hover {
+  cursor: pointer;
+  background-position: center center;
+}
+.Radio-But .ctrl-select.active{
+  background-position: center top;
+}
+#prewBut, #nextBut{
+  display: block;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  text-indent: -99999px;
+  background: url("arrowBg.png") left center no-repeat;
+  opacity: 0.5;
+  z-index: 3;
+  outline: none !important;
+}
+#prewBut { 
+  left: 10px;
+}
+#nextBut {
+  right: 10px;
+  background: url("arrowBg.png") right center no-repeat;
+}
+#prewBut:hover, #nextBut:hover {
+  opacity: 1;
+}
+.nav-wrapper{
+  background-color: #4B4B4B;
+}
+.indicators {
+  display:none;
+}
+.remontyash1{
+  font-size:33px;
+}
+.blochara{
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/mujik.jpg');
+  width: auto;
+}
+.container{
+  height: 800px;
+}
+.carousel1{
+  width: 10%;
+  height:10%;
+}
+.Onas{
+  position: relative;
+  background-position: center center;
+  background-size:  cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/22.jpg');
+  width: auto;
+  overflow: auto;
+}
+.container {
+  width: 1%;
+  height: 1%;
+}
+.card-content {
+  position: relative;
+}
+.btn-floating{
+  position: absolute;
+  top: -30px;
+  right: 15px;
+}
+.losharik{
+  position: relative;
+  background-position: center center;
+  background-size:  cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/11.jpg');
+  width: auto;
+  overflow: auto;
+}
+.jorik{
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: ;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: auto;
+  overflow: auto;
+}
+.page-footer{
+  margin-top: 0px !important;
+}
+.p1{
+  margin-top: -20px;
+}
+.b-video {
+  width: 100%;
+  min-height: 440px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.viedeo__file{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.callcenter{
+  position: relative;
+  background-position: center center;
+  background-size:  cover;
+  background-attachment: ;
+  background-repeat: no-repeat;
+  background-image: url('../img/call_center.jpg');
+  width: auto;
+  overflow: auto;
+  padding: 100px;
+}
+.sp1{
+  font-family: 'HouschkaRounded-Bold';
+  font-size: 30px;
+}
+.sp2{
+  font-family: 'HouschkaRounded-Bold';
+  font-size: 20px;
+}
+.sp3{
+  font-family: 'HouschkaRounded-Bold';
+  font-size: 25px;
+}
+.icons{
+  font-size:40px;
+}
+.sanya{
+  font-size:350px;
+  position:absolute;
+  color:white;
+  margin-top: -153px;
+  margin-left: -1305px;
+}
+
+
+
+
+
+  @media only screen and (max-width: 1200px) {
+.noneslider {
+    display: none;
+}
+}
+ @media only screen and (max-width: 1200px) {
+.callcenter {
+    background-image: url('../img/57611e35e67c1155535e02b8.jpg') !important;
+}
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
