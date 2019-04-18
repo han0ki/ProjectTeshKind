@@ -282,15 +282,36 @@ body {
 .icons{
   font-size:40px;
 }
-.sanya{
-  font-size:350px;
-  position:absolute;
-  color:white;
-  margin-top: -153px;
-  margin-left: -1305px;
+.prems{
+  position: relative;
+  background-position: center center;
+  background-size:  cover;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/mujik.jpg');
+  width: auto;
+  height: 400px;
 }
-
-
+.prem p{
+  font-size: 25px;
+  font-family: 'HouschkaRounded-Bold';
+  padding: 30px;
+}
+.prem span{
+  font-size: 25px;
+  font-family: 'HouschkaRounded-Bold';
+  padding: 30px;
+}
+.prem1 span{
+  font-size: 25px;
+  font-family: 'HouschkaRounded-Bold';
+  padding: 30px;
+}
+.prem2 span{
+  font-size: 25px;
+  font-family: 'HouschkaRounded-Bold';
+  padding: 30px;
+}
 
 
 
