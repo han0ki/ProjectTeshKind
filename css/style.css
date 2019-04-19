@@ -12,10 +12,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 font-family: 'fonte049e093163fcd86da465c35a92b13f0';
     src:    url('https://nomail.com.ua/files/eot/e049e093163fcd86da465c35a92b13f0.eot?#iefix') format('embedded-opentype'),
             url('https://nomail.com.ua/files/woff/e049e093163fcd86da465c35a92b13f0.woff') format('woff'),
+
             url('https://nomail.com.ua/files/woff2/e049e093163fcd86da465c35a92b13f0.woff2') format('woff2');
 }
 @font-face { font-family: 'HouschkaRounded-Bold';  src: local('HouschkaRounded-Bold'), url('https://nomail.com.ua/files/woff/e049e093163fcd86da465c35a92b13f0.woff') format('woff'); }
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -51,6 +53,8 @@ hr {
   margin: 0;
   background:#4B4B4B;
   border: none;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 .logo img{
@@ -67,24 +71,30 @@ hr {
   left: 208px;
   font-family: 'HouschkaRounded-Bold';
   background: #4B4B4B; /* Цвет фона */
+  -webkit-background-size: 500px 100px;
   background-size: 500px 100px;
   width: 470px;
   height: 50px;
   color: #fff; /* Цвет текста */
+  -webkit-border-radius: 30px;
   border-radius: 30px; /* Уголки */
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
   box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
 }
 .border {
   background: #4B4B4B;
+  -webkit-background-size: 500px 100px;
   background-size: 500px 100px;
   width: 476px;
   height: 148px;
   color: #fff;
+  -webkit-border-radius: 30px;
   border-radius: 30px;
   background-position: right bottom;
   position: absolute;
   margin-top: 238px;
   margin-left: 204px;
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
   box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
   padding: 10px;
 }
@@ -182,6 +192,7 @@ body {
 .blochara{
   position: relative;
   background-position: center center;
+  -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -198,6 +209,7 @@ body {
 .Onas{
   position: relative;
   background-position: center center;
+  -webkit-background-size:  cover;
   background-size:  cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -220,6 +232,7 @@ body {
 .losharik{
   position: relative;
   background-position: center center;
+  -webkit-background-size:  cover;
   background-size:  cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -230,6 +243,7 @@ body {
 .jorik{
   position: relative;
   background-position: center center;
+  -webkit-background-size: cover;
   background-size: cover;
   background-attachment: ;
   background-repeat: no-repeat;
@@ -254,11 +268,13 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .callcenter{
   position: relative;
   background-position: center center;
+  -webkit-background-size:  cover;
   background-size:  cover;
   background-attachment: ;
   background-repeat: no-repeat;
@@ -285,33 +301,26 @@ body {
 .prems{
   position: relative;
   background-position: center center;
+  -webkit-background-size:  cover;
   background-size:  cover;
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-image: url('../img/mujik.jpg');
   width: auto;
-  height: 400px;
+  height: 565px;
 }
 .prem p{
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'HouschkaRounded-Bold';
-  padding: 30px;
+  color: #424242;
 }
-.prem span{
-  font-size: 25px;
-  font-family: 'HouschkaRounded-Bold';
-  padding: 30px;
-}
-.prem1 span{
-  font-size: 25px;
-  font-family: 'HouschkaRounded-Bold';
-  padding: 30px;
-}
-.prem2 span{
-  font-size: 25px;
-  font-family: 'HouschkaRounded-Bold';
-  padding: 30px;
-}
+
+
+
+
+
+
+
 
 
 
