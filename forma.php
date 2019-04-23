@@ -29,19 +29,16 @@
     <div class="nav-wrapper">
       <div class="row">
       <div class="container">
-      <a href="#" class="brand-logo"><img src="img/668.png"></a>
+      <a href="index.php" class="brand-logo"><img src="img/668.png"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons" style="margin-top:-11px">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a style="font-size:20px;width:100%;" href="sass.html">О нас</a></li>
-        <li><a style="font-size:20px;width:100%;" href="badges.html">Заявка на ремонт</a></li>
-        <li><a style="font-size:20px;width:100%;" href="forma.php">Связаться со специалистом</a></li>
+        <li><a style="font-size:20px;width:100%;" href="index.php">Главная</a></li>
+        <li><a style="font-size:20px;width:100%;" href="calc.php">Заявка на ремонт</a></li>
       </ul>
 <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">О нас</a></li>
-        <li><a href="badges.html">помогите</a></li>
-        <li><a href="forma.php"></a></li>
-        
+        <li><a href="index.php">Главная</a></li>
+        <li><a href="calc.php">Заявка на ремонт</a></li>
       </ul>
    </div>
     
@@ -82,27 +79,25 @@
    </div>
 
 </section>
-
-<div id="map" style="width: 100%; height: 400px"></div>
-
-<script type="text/javascript">
-    // Функция ymaps.ready() будет вызвана, когда
-    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
-    ymaps.ready(init);
-    function init(){ 
-        // Создание карты.    
-        var myMap = new ymaps.Map("map", {
-            // Координаты центра карты.
-            // Порядок по умолчанию: «широта, долгота».
-            // Чтобы не определять координаты центра карты вручную,
-            // воспользуйтесь инструментом Определение координат.
-            center: [55.5005, 46.41288],
-            // Уровень масштабирования. Допустимые значения:
-            // от 0 (весь мир) до 19.
-            zoom: 15
-        });
-    }
-</script>
+<section class="callcenter">
+<div class="container"> 
+   <h6><span class="sp3" >Ответим на ваши вопросы прямо сейчас
+        </span></h6>
+        <h6><span class="sp2">Напишите нам:
+        </span></h6>
+<div class="icons">
+       <i class="fab fa-vk"></i>
+       <i class="fab fa-telegram" ></i>
+       <i class="fab fa-whatsapp"></i>
+</div>
+<div class="ofic">
+        <h6><span class="sp3">Или приходите в наш офис по адресу:
+        </span></h6>
+        <h6><span class="sp2"><i class="fas fa-map-marked-alt"></i>г.Шумерля ул.Чайковского д.12
+        </span></h6>
+</div>
+</section>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae5e6ea5518fa8f7d946a0458524dffd599332e05e55e8fbca55029e180ab0414&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
 
 
 

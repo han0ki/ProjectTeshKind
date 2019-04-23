@@ -15,10 +15,10 @@ die("Connection failed: " . mysqli_connect_error());
 $name = strip_tags(trim($_POST['name']));
 $tel = strip_tags(trim($_POST['tel']));
 $cena = strip_tags(trim($_POST['cena']));
+$prob = strip_tags(trim($_POST['prob']));
 
 
-
-$sql = "INSERT INTO tab2 (name, tel, cena) VALUES ('$name', '$tel', '$cena')";
+$sql = "INSERT INTO tab2 (name, tel, cena, prob) VALUES ('$name', '$tel', '$cena', '$prob')";
 if (mysqli_query($link, $sql)) {
       
 } else {
